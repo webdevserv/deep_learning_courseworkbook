@@ -1,0 +1,50 @@
+VIDEO + BOOK + FORUM + FASTBOOK: HOW TO DO THE BOOK.
+
+aiquizzes.com
+
+Do the notebook on the fastbook folder (markup + code)
+and then try to do it with the code alone version (Clean folder) asking yourself what is this going to do??
+--------------------------
+jupyter notebook
+
+jupyter nbextension enable codefolding/main
+
+jupyter nbextension disable codefolding/main
+https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html
+---------------------------------------------------
+git clone https://github.com/fastai/fastai
+pip install -e "fastai[dev]"
+
+conda create --name jeremy
+conda activate jeremy
+
+conda deactivate
+
+python filename.py
+
+jupyter notebook
+
+python dataloader_spawn.py
+
+pip install fastai
+pip install duckduckgo
+
+import torch
+print(torch.__version__)
+
+1.13.1+cpu
+
+
+Once you have set up a Python environment with the necessary libraries, you can use it as a kernel in your Jupyter Notebook. Here’s how you can do it:
+
+First, make sure that you have the ipykernel package installed in your environment. You can install it by running pip install ipykernel or conda install ipykernel within your environment.
+
+Next, run the command python -m ipykernel install --user --name myenv --display-name "Python (myenv)", replacing myenv with the name of your environment. This will create a new kernel associated with your environment.
+
+Now, open your Jupyter Notebook and click on the Kernel menu. You should see an option for the kernel you just created, labeled Python (myenv). Select it to switch to that kernel.
+
+Now, when you run code in your notebook, it will use the libraries installed in your myenv environment.
+
+I hope that helps! Let me know if you have any other questions.
+
+Received message. Once you have set up a Python environment with the necessary libraries, you can use it as a kernel in your Jupyter Notebook. Here's how you can do it: 1. First, make sure that you have the `ipykernel` package installed in your environment. You can install it by running `pip install ipykernel` or `conda install ipykernel` within your environment. 2. Next, run the command `python -m ipykernel install --user --name myenv --display-name "Python (myenv)"`, replacing `myenv` with the name of your environment. This will create a new kernel associated with your environment. 3. Now, open your Jupyter Notebook and click on the `Kernel` menu. You should see an option for the kernel you just created, labeled `Python (myenv)`. Select it to switch to that kernel. Now, when you run code in your notebook, it will use the libraries installed in your `myenv` environment. I hope that helps! Let me know if you have any other questions.
